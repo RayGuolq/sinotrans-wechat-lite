@@ -1,0 +1,26 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/confirm/confirm",
+        "pages/forms/index",
+        "pages/personalInformation/personalInformation",
+        "pages/logs/logs",
+        "pages/home/home",
+        "pages/maps/maps",
+        "pages/line-multi-axis/index",
+        "pages/alter/alter"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#000",
+        "navigationBarTitleText": "sinotrans",
+        "navigationBarTextStyle": "white"
+    },
+    "networkTimeout": {
+        "request": 100000000,
+        "connectSocket": 1000000000,
+        "uploadFile": 100000000,
+        "downloadFile": 100000000
+    },
+    "debug": false
+}

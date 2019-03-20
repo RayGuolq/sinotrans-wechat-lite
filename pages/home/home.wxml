@@ -1,0 +1,40 @@
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content">
+                    <view class="page-section page-section-gap">
+                        <map id="myMap" style="width: 100%; height: 100vh;" latitude="{{latitude}}" longitude="{{longitude}}" show-location></map>
+                        <view bindtap="openConfirm" class="view-one">
+                            <view class="view-two">
+                                <view class="view-three">
+                                    <image class="touxiang" src="/images/people1.png"></image>
+                                </view>
+                                <view class="view-four">
+                                    <text class="text-one">{{usename}}</text>
+                                    <view class="view-five">
+                                        <text class="text-two">{{category}}</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="view-six">
+                                <image class="jiantou" src="/images/jiantou_you.png"></image>
+                            </view>
+                        </view>
+                        <view class="view-seven">
+                            <button class="button-one" bindtap="saoma">
+                                <image class="saoma" src="/images/saoma.png"></image>
+                                <text class="text-three">扫码操作</text>
+                            </button>
+                        </view>
+                        <view class="view-break">
+                            <button class="button-two" bindtap="moveToLocation">
+                                <image class="break" src="/images/dingwei.png"></image>
+                            </button>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

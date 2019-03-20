@@ -1,0 +1,42 @@
+<view class="page">
+    <view class="body">
+        <image class="img-one" src="{{fromsrc}}" bindtap="imgchange"></image>
+    </view>
+    <view class="area">
+        <view class="view-one">
+            <text class="name-left">姓名</text>
+            <text class="name-right">{{name}}</text>
+        </view>
+        <view class="view-two">
+            <text class="account-left">账号</text>
+            <text class="account-right">{{account}}</text>
+        </view>
+        <view class="view-three">
+            <text class="phone-left">手机号</text>
+            <text class="phone-right">{{phone}}</text>
+        </view>
+        <view class="view-four">
+            <text class="email-left">邮箱地址</text>
+            <text class="email-right">{{email}}</text>
+        </view>
+        <view class="view-five">
+            <text class="qiyeID-left">企业ID</text>
+            <text class="qiyeID-right">{{qiyeID}}</text>
+        </view>
+        <view class="view-six">
+            <text class="qiyeName-left">企业名称</text>
+            <text class="qiyeName-right">{{qiyeName}}</text>
+        </view>
+        <!-- <view class="view-seven">
+            <text class="contect-left">24小时联系电话</text>
+            <text class="contect-right">{{contect}}</text>
+        </view>
+        <view class="view-eight" bindtap="alter">
+            <text class="contect-left">修改密码</text>
+            <text class="contect-right">>>></text>
+        </view> -->
+    </view>
+    <view class="footer">
+        <button bindtap="return" class="exit">退出登陆</button>
+    </view>
+</view>

@@ -1,0 +1,276 @@
+page, .page__bd {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*.page{
+    height:1900px;
+    overflow-y: scroll;
+}*/
+
+.page__bd {
+    padding-bottom: 0;
+}
+
+.weui-tab__panel {
+    padding-top: 0px;
+}
+
+.weui-tab__content {
+    /*padding-top: 60px;*/
+    text-align: center;
+}
+
+.weui-footer {
+    margin-bottom: 50px;
+}
+
+.weui-footer_fixed-bottom {
+    margin-bottom: 0;
+}
+
+.view-one {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    background: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.view-two {
+    float: left;
+    margin-left: 5%;
+}
+
+.view-three, .view-four {
+    float: left;
+}
+
+.view-four {
+    margin-left: 5px;
+}
+
+.xz {
+    height: 25px;
+    width: 20px;
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+.text-one {
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.view-five {
+    text-align: left;
+    margin-top: -2px;
+}
+
+.text-two {
+    display: inline-block;
+    font-size: 13px;
+    color: #acacac;
+}
+
+.view-six {
+    float: right;
+    margin-right: 5%;
+}
+
+.jiantou {
+    width: 30rpx;
+    height: 50rpx;
+    margin-top: 15px;
+}
+
+.view-seven {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    margin-left: -55px;
+}
+
+.view-break {
+    position: absolute;
+    right: 5%;
+    top: 75%;
+}
+
+.break {
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-top: -9px;
+    margin-right: -9px;
+}
+
+.button-one {
+    background: #38b8df;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+    width: 110px;
+}
+
+.button-two {
+    background: #BBB;
+    height: 40px;
+    margin: 0px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.text-three {
+    width: 60px;
+    line-height: 40px;
+    color: white;
+}
+
+.text-break {
+    width: 60px;
+    line-height: 40px;
+    color: white;
+    /*position: relative;
+    left:-10px;
+    letter-spacing: 4px;*//*padding-left: 20px;*/
+}
+
+.page-section-gap {
+    box-sizing: border-box;
+}
+
+button {
+    width: 90%;
+}
+
+.fenzu {
+    height: 60px;
+    line-height: 60px;
+    border-right: 1px solid #ededed;
+    margin-top: 5px;
+    background: white;
+    text-align: left;
+    font-size: 25px;
+}
+
+.touxiang {
+    width: 100rpx;
+    height: 90rpx;
+    margin: 10rpx;
+    border-radius: 50%;
+    background-color: #38b8df;
+}
+
+.sk>view:last {
+    border-bottom: 0px;
+}
+
+.you {
+    height: 10px;
+    width: 6px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.xiangzi {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 3px;
+    top: 2px;
+}
+
+.text-four {
+    background: white;
+    color: #c7c7cc;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.you1 {
+    height: 15px;
+    width: 9px;
+    position: relative;
+    top: 23px;
+    float: right;
+}
+
+.xia {
+    height: 9px;
+    width: 15px;
+    position: relative;
+    top: 23px;
+    float: right;
+}
+
+.view-eight {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.view-nine {
+    padding: 0px;
+    margin-top: -10px;
+    margin-left: 25px;
+}
+
+.text-five {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font-size: 13px;
+    line-height: 10px;
+    color: #afafaf;
+}
+
+.saoma {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: -10px;
+}
+
+.false {
+    display: block;
+    width: 89%;
+    background: white;
+    margin-left: 5%;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+.true {
+    display: none;
+    width: 89%;
+    background: white;
+    margin-left: 5%;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+
+.common {
+    color: green;
+}
+
+.common1 {
+    color: #ccc;
+}
+
+.view-bo {
+    margin-bottom: 10px;
+}

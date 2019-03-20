@@ -1,0 +1,41 @@
+<view class="page">
+    <view class="body">
+        <view class="view-one">
+            <text class="start">开始时间</text>
+        </view>
+        <view class="view-two">
+            <picker mode="date" value="{{dateValue}}" start="1999-01-01" end="2999-12-31" bindchange="datePickerBindchange">
+                <text class="dateStart">年月日:</text>
+                <text class="dateStarts">{{dateSValue}}</text>
+            </picker>
+        </view>
+        <view class="view-three">
+            <picker mode="time" value="{{timeValue}}" start="00:00" end="23:59" bindchange="timePickerBindchange">
+                <text class="timeStart">时分秒:</text>
+                <text class="timeStarts">{{timeSValue}}</text>
+            </picker>
+        </view>
+        <view class="view-four">
+            <text class="end">结束时间</text>
+        </view>
+        <view class="view-five">
+            <picker mode="date" value="{{dateValue}}" start="1999-01-01" end="2999-12-31" bindchange="datePickerBindchange1">
+                <text class="dateEnd">年月日:</text>
+                <text class="dateEnds">{{dateEValue}}</text>
+            </picker>
+        </view>
+        <view class="view-six">
+            <picker mode="time" value="{{timeValue}}" start="00:00" end="23:59" bindchange="timePickerBindchange1">
+                <text class="timeEnd">时分秒:</text>
+                <text class="timeEnds">{{timeEValue}}</text>
+            </picker>
+        </view>
+        <view class="chart-iframe">
+            <canvas style="width:{{myCanvasStyle.width}}px; height: {{myCanvasStyle.height}}px;" bindtouchstart="myCanvasTouchStart" canvas-id="myCanvas"></canvas>
+        </view>
+        <view class="view-seven">
+            <button class="button-one" bindtap="query">查询</button>
+            <button bindtap="quxiao" class="button-two">取消</button>
+        </view>
+    </view>
+</view>

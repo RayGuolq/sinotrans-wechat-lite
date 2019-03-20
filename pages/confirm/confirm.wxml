@@ -1,0 +1,45 @@
+<view class="page">
+    <view class="viewss">
+        <image class="xiangzi" src="/images/xiangzi2.png"></image>
+        <image class="zhuangtai {{zaixian}}" src="/images/zaixian.png"></image>
+        <image class="zhuangtai {{lixian}}" src="/images/lixian.png"></image>
+        <view class="views">
+            <text class="text-one">{{mingcheng}}</text>
+            <text class="text-two">ID:{{id}}</text>
+        </view>
+    </view>
+    <view class="view-one">
+        <button bindtap="shuaxin" class="btn-rel">
+            <image class="circle1" src="/images/shuaxin.png"></image>刷新</button>
+        <!-- <button bindtap="zhuizong" class="btn-area">
+            <image class="circle" src="/images/dingwei.png"></image>位置追踪</button> -->
+    </view>
+    <view class="view-two">
+        <view class="views-one">
+            <text class="empty1"></text>
+            <image class="img-one" src="/images/wendu.png"></image>
+            <text class="empty2"></text>
+            <text class="textOne">实时温度 :</text>
+            <text class="textTwo">{{wendu}} ℃</text>
+        </view>
+        <view class="views-two">
+            <text class="empty1"></text>
+            <image class="img-one" src="/images/wendu.png"></image>
+            <text class="empty2"></text>
+            <text class="textOne">设置温度 :</text>
+            <text class="textTwo">{{shezhiwendu}} ℃</text>
+        </view>
+        <view class="views-three">
+            <image class="img-two" src="/images/shijian.png"></image>
+            <text class="textOne">时间 :</text>
+            <text class="textTwo">{{deviceTime}}</text>
+        </view>
+    </view>
+    <view class="view-three">
+        <!-- <button bindtap="confirm" class="button-one">远程开门</button> -->
+        <button bindtap="baobiao" class="button-two">温度报表</button>
+    </view>
+</view>
+<!--<view>
+    <canvas  canvas-id="myCanvas1"  style="height:250px;width:250px;"></canvas>
+</view>-->

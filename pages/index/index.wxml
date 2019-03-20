@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="page">
+    <view class="container">
+        <view class="top">
+            <image class="logo" src="/images/logo.png" background-size="cover"></image>
+            <text class="title">{{title}}</text>
+        </view>
+        <view class="body page__bd page__bd_spacing">
+            <input class="username" bindinput="bindUsername" placeholder="{{usename}}" value="{{usenameValue}}" />
+            <input class="password" type="password" bindinput="bindPassword" placeholder="{{password}}" value="{{passwordValue}}" />
+            <button class="weui-btn denglu" bindtap="loginTap" type="primary">登录</button>
+        </view>
+        <view class="page__bd page__bd_spacing">
+            <view class="weui-footer weui-footer_fixed-bottom">
+                <view class="weui-footer__links">
+                    <navigator url="" class="weui-footer__link footer">{{mingcheng}}</navigator>
+                </view>
+                <view class="weui-footer__text">{{shuoming}}</view>
+                <view class="weui-footer__text">{{zhuzuoquan}}</view>
+            </view>
+        </view>
+    </view>
+</view>

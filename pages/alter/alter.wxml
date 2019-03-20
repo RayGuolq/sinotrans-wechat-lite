@@ -1,0 +1,29 @@
+<view class="page">
+    <view class="body">
+        <image class="img-one" src="/images/logo.png"></image>
+    </view>
+    <view class="viewOne">
+        <view class="viewOnes">
+            <text class="textOne">原始密码 :</text>
+            <input class="inputOne" bindinput="old" type="{{types}}" value="{{old1}}" placeholder="请输入旧密码" />
+        </view>
+        <view class="viewOnes">
+            <text class="textOne">新密码 :</text>
+            <input class="inputOne" bindinput="newp" type="{{types}}" value="{{newp1}}" placeholder="请输入新密码" />
+        </view>
+        <view class="viewOnes">
+            <text class="textOne">确认密码 :</text>
+            <input class="inputOne" bindinput="confirm" type="{{types}}" value="{{confirm1}}" placeholder="请再次确认密码" />
+        </view>
+    </view>
+    <view class="viewTwo">
+        <button class="alter" type="primary" bindtap="alter">更改密码</button>
+    </view>
+    <!--<view class="viewThree">
+        <checkbox-group bindchange="checkboxChange">
+            <label class="checkbox">
+                <checkbox value="true"/>显示密码
+            </label>
+        </checkbox-group>
+    </view>-->
+</view>

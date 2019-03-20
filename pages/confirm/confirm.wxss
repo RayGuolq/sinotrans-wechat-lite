@@ -1,0 +1,252 @@
+.page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.viewss {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.true {
+    display: block;
+}
+
+.false {
+    display: none;
+}
+
+.xiangzi {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10%;
+}
+
+.zhuangtai {
+    height: 20px;
+    width: 25px;
+    float: left;
+    margin-left: -3%;
+}
+
+.btn-area {
+    width: 80px;
+    background: #3db3eb;
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    float: right;
+    margin-right: 10px;
+}
+
+.circle {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 3px;
+    left: -3px;
+}
+
+.circle1 {
+    height: 15px;
+    width: 17px;
+    position: relative;
+    top: 3px;
+    left: -3px;
+}
+
+.btn-rel {
+    width: 50px;
+    background: #3db3eb;
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    float: right;
+    margin-right: 20px;
+}
+
+button {
+    width: 80%;
+}
+
+.view-one {
+    margin-top: 20px;
+    width: 94%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #f1f1f1;
+}
+
+.text-one {
+    font-size: 20px;
+    /*float: right;*/
+    display: block;
+}
+
+.views {
+    float: left;
+    margin-left: 10%;
+}
+
+.view-two {
+    width: 94%;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    background: white;
+}
+
+.views-one, .views-two, .views-three, .views-four, .views-five {
+    width: 92%;
+    margin-left: 4%;
+    border-bottom: 1px solid #f1f1f1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.textOne {
+    font-size: 13px;
+    color: #666;
+    padding-left: 10%;
+}
+
+.textOnes {
+    width: 80%;
+    display: inline-block;
+    font-size: 13px;
+    color: #666;
+    padding-left: 10%;
+}
+
+.textTwo {
+    font-size: 13px;
+    color: black;
+    margin-left: 5px;
+}
+
+.textTwoo {
+    font-size: 13px;
+    color: #666;
+    margin-left: 5px;
+}
+
+.textTwos {
+    font-size: 13px;
+    color: #666;
+    padding-left: 18%;
+}
+
+.textthrees {
+    display: inline-block;
+    padding-left: 18%;
+    font-size: 13px;
+    color: #666;
+}
+
+.textfour {
+    /*display: block;*/
+    font-size: 13px;
+    color: #666;
+    padding-left: 10%;
+}
+
+.textfive, .textsix, .textseven, .texteight {
+    display: block;
+    font-size: 13px;
+    color: black;
+    padding-left: 17%;
+}
+
+.textfiveli {
+    color: #666;
+    padding-right: 10px;
+}
+
+.textfiveli1 {
+    color: #666;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.img-one {
+    height: 15px;
+    width: 8px;
+    padding-left: 10px;
+    position: relative;
+    top: 2px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.img-two {
+    height: 15px;
+    width: 15px;
+    padding-left: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.img-three {
+    height: 17px;
+    width: 13px;
+    padding-left: 10px;
+    position: relative;
+    top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.img-six {
+    height: 15px;
+    width: 15px;
+    padding-left: 10px;
+    position: relative;
+    top: 20px;
+}
+
+.wenducolor {
+    color: black;
+}
+
+.text-two {
+    font-size: 15px;
+    color: #999;
+    /*float: right;*/
+    display: block;
+}
+
+.view-three {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.button-one {
+    background: #09ba07;
+    color: white;
+}
+
+.button-two {
+    background: #3db3eb;
+    margin-top: 10px;
+    color: white;
+}
+
+.weui-footer__link {
+    color: #666;
+}
+
+.weui-footer__text {
+    color: #333;
+}
